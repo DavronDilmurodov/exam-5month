@@ -59,13 +59,11 @@ export const Error = () => {
               </ul>
             </li>
           </ul>
-          <button className="bg-[#7C5DFA] ml-10 rounded-3xl flex pl-2 pr-4 py-3 justify-center text-white items-center hover:bg-[#9277FF]">
-            <img
-              className="mr-4"
-              onClick={() => navigate("/add")}
-              src={plus}
-              alt="plus"
-            />{" "}
+          <button
+            onClick={() => navigate("/add")}
+            className="bg-[#7C5DFA] ml-10 rounded-3xl flex pl-2 pr-4 py-3 justify-center text-white items-center hover:bg-[#9277FF]"
+          >
+            <img className="mr-4" src={plus} alt="plus" />
             New Invoice
           </button>
         </div>
