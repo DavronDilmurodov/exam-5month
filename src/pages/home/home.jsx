@@ -78,11 +78,7 @@ export const Home = () => {
             <button
               className="bg-[#7C5DFA] ml-10 rounded-3xl flex pl-2 pr-4 py-3 justify-center text-white items-center hover:bg-[#9277FF]"
               onClick={() => {
-                if (token) {
-                  navigate("/add");
-                } else {
-                  return <Login />;
-                }
+                navigate("/add");
               }}
             >
               <img className="mr-4" src={plus} alt="plus" /> New Invoice
