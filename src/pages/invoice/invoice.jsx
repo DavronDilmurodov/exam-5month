@@ -26,7 +26,7 @@ export const Invoice = () => {
       .delete(`https://invoices-8ehs.onrender.com/invoices/${id}`, {
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im51cnVsbG9oMjNAZ21haWwuY29tIiwiaWF0IjoxNjg1MjkzODY1LCJleHAiOjE2ODUyOTc0NjUsInN1YiI6IjEifQ.uo6zC0NhiQI0TfS-VSWs_9CW-4J6jvsMSnc8FTXjq2E",
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im51cnVsbG9oMjNAZ21haWwuY29tIiwiaWF0IjoxNjg1Mjk3MDYwLCJleHAiOjE2ODUzMDA2NjAsInN1YiI6IjEifQ.FUMd4QV2ATrItpW_1G-kGj0w7VeXzGZzbPDLA4vb7LY",
         },
       })
       .then((res) => {
@@ -51,7 +51,7 @@ export const Invoice = () => {
       }),
       headers: {
         Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im51cnVsbG9oMjNAZ21haWwuY29tIiwiaWF0IjoxNjg1MjkzODY1LCJleHAiOjE2ODUyOTc0NjUsInN1YiI6IjEifQ.uo6zC0NhiQI0TfS-VSWs_9CW-4J6jvsMSnc8FTXjq2E",
+          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im51cnVsbG9oMjNAZ21haWwuY29tIiwiaWF0IjoxNjg1Mjk3MDYwLCJleHAiOjE2ODUzMDA2NjAsInN1YiI6IjEifQ.FUMd4QV2ATrItpW_1G-kGj0w7VeXzGZzbPDLA4vb7LY",
         "Content-Type": "application/json",
       },
     })
